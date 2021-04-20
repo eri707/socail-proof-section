@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   position: relative;
   width: 1260px;
-  margin: 2rem auto;
+  margin: 8rem auto;
   color: purple;
   box-shadow: 0 0 10px 5px whitesmoke;
 }
@@ -15,12 +15,15 @@ body {
 .social-proof .summary {
   display: flex;
 }
-.social-proof .summary .tile {
-  margin-right: 1rem;
+.social-proof .summary .title {
+  margin-right: 1.5rem;
 }
-.social-proof .summary .tile h2 {
+.social-proof .summary .title h2 {
   margin-top: 0;
   margin-bottom: 0;
+}
+.social-proof .summary .title p {
+  color: #b1aeae;
 }
 .social-proof .summary .rate {
   margin: 0 0 0 4rem;
@@ -34,7 +37,7 @@ body {
   width: 400px;
 }
 .social-proof .summary .rate .rate-reviews svg, .social-proof .summary .rate .rate-report-guru svg, .social-proof .summary .rate .rate-bestech svg {
-  padding: 0.15rem;
+  padding: 0 0.15rem;
 }
 .social-proof .summary .rate .rate-reviews span, .social-proof .summary .rate .rate-report-guru span, .social-proof .summary .rate .rate-bestech span {
   padding-left: 1rem;
