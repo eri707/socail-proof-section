@@ -1,0 +1,85 @@
+@import "typeface.css";
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  position: relative;
+  width: 1260px;
+  margin: 2rem auto;
+  color: purple;
+  box-shadow: 0 0 10px 5px whitesmoke;
+}
+
+.social-proof {
+  padding: 4rem 6rem;
+}
+.social-proof .summary {
+  display: flex;
+}
+.social-proof .summary .tile {
+  margin-right: 1rem;
+}
+.social-proof .summary .tile h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.social-proof .summary .rate {
+  margin: 0 0 0 4rem;
+}
+.social-proof .summary .rate .rate-reviews, .social-proof .summary .rate .rate-report-guru, .social-proof .summary .rate .rate-bestech {
+  border: 0.5rem solid #f7ecf7;
+  background-color: #f7ecf7;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 400px;
+}
+.social-proof .summary .rate .rate-reviews svg, .social-proof .summary .rate .rate-report-guru svg, .social-proof .summary .rate .rate-bestech svg {
+  padding: 0.15rem;
+}
+.social-proof .summary .rate .rate-reviews span, .social-proof .summary .rate .rate-report-guru span, .social-proof .summary .rate .rate-bestech span {
+  padding-left: 1rem;
+}
+.social-proof .summary .rate .rate-report-guru {
+  margin-left: 3rem;
+}
+.social-proof .summary .rate .rate-bestech {
+  margin-left: 6rem;
+}
+.social-proof .reviews {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.social-proof .reviews .review1, .social-proof .reviews .review2, .social-proof .reviews .review3 {
+  border: 0.5rem solid purple;
+  background-color: purple;
+  margin-right: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  height: 13rem;
+  color: white;
+}
+.social-proof .reviews .review2 {
+  margin-top: 1.5rem;
+}
+.social-proof .reviews .review3 {
+  margin-top: 3rem;
+}
+.social-proof .reviews .profile {
+  display: flex;
+}
+.social-proof .reviews .profile img {
+  border-radius: 5rem;
+}
+.social-proof .reviews .profile .name {
+  margin-left: 1.5rem;
+}
+.social-proof .reviews .profile .name p {
+  margin-bottom: 0;
+}
+.social-proof .reviews .profile .name span {
+  margin-top: 0;
+  padding-top: 0;
+  color: #cc44cc;
+}
+
+/*# sourceMappingURL=style.css.map */
